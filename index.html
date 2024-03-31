@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>საშინაო 28</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <table id="board">
+      <tr>
+        <td onclick="cellClicked(0, 0)"></td>
+        <td onclick="cellClicked(0, 1)"></td>
+        <td onclick="cellClicked(0, 2)"></td>
+      </tr>
+      <tr>
+        <td onclick="cellClicked(1, 0)"></td>
+        <td onclick="cellClicked(1, 1)"></td>
+        <td onclick="cellClicked(1, 2)"></td>
+      </tr>
+      <tr>
+        <td onclick="cellClicked(2, 0)"></td>
+        <td onclick="cellClicked(2, 1)"></td>
+        <td onclick="cellClicked(2, 2)"></td>
+      </tr>
+    </table>
+    <div id="winner"></div>
+    <button class="refresh-btn" onclick="resetGame()">Refresh</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
